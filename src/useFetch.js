@@ -7,7 +7,7 @@ const useFetch = (url) => {
 
   useEffect(() => {
     setTimeout(() => {
-      fetch("http://localhost:8000/blogs")
+      fetch(url)
         .then((res) => {
           if (!res.ok) {
             throw Error("the data could not be found on this id");

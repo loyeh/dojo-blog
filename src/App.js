@@ -8,6 +8,7 @@ import {
 } from "react-router-dom/cjs/react-router-dom";
 
 import Create from "./create";
+import BlogDetails from "./BlogDetails";
 
 function App() {
   return (
@@ -21,6 +22,9 @@ function App() {
             </Route>
             <Route path="/create">
               <Create />
+            </Route>
+            <Route path="/blogs/:id">
+              <BlogDetails />
             </Route>
           </Switch>
         </div>

@@ -7,7 +7,7 @@ import {
   Switch,
 } from "react-router-dom/cjs/react-router-dom";
 
-import Create from "./create";
+import Create from "./Create";
 import BlogDetails from "./BlogDetails";
 
 function App() {
